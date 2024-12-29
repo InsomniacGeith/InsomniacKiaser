@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="img/style.css">
+    <link rel="shortcut icon" href="favicon.html" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons%402.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">InsGt</a>
+
+        <i class='bx bx-menu' id="menu-icon" ></i>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Service</a>
+            <a href="img/CV Eudes Paulin.pdf.pdf" target="_blank">Mon CV</a>
+            <a href="contact.html">Contact</a>
+           
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, it's me</h3>
+            <h1>Eudes Paulin</h1>
+            <h3>And I am a <span class="multiple-text"></span></h3>
+            <p>Entrepreneurial and dynamic student who has a thirst for knowledge and culture</p>
+            <div class="social-media">
+                <a href="https://discord.com/channels/@me"><i class='bx bxl-discord-alt'></i></a>
+                <a href="https://github.com/InsomniacGeith"><i class='bx bxl-github'></i></a>
+                <a href="https://m.facebook.com/people/Insomniac-Geith/100073674457063/"><i class='bx bxl-facebook-circle'></i></a>
+            </div>
+            <a href="#" class="btn" onclick="downloadDocument()">Download CV</a>
+
+        </div>
+        <div class="home-img">
+            <img src="img/InsomniacGeith.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/InsomniacGeith.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">A Propos De <span>Moi</span></h2>
+            <h3>Developper!</h3>
+            <p>
+                I am passionate about programming.
+            I enjoy working on IT projects and learning new skills in this ever-changing field. Outside of my work,
+                  I like watching Anime, reading MANGA, working out and playing Video Games. I'm a huge fan of MANAGA and am fascinated by how professional Mangaka excel in their field.
+                   I also like to educate myself by reading articles on the history of technology and following the latest trends in the field.
+                    I love learning new things and am always looking for new opportunities to expand my knowledge and skills.
+            </p>                <!--<a href="#" class="btn">Lire Plus</a>-->
+                
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>FrontEnd designer</h3>
+                <p>reproduction of html model</p>
+                <!--<a href="#" class="btn">Lire Plus</a>-->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Conseiller</h3>
+                <p>Provides advice on how to maintain your computer tools</p>
+                <!--<a href="#" class="btn">Lire Plus</a>-->
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Mobile Developper</h3>
+                <p>Currently learning</p>
+                <!--<a href="#" class="btn">Lire Plus</a>-->
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Backend Developper</h3>
+                <p>Currently learning</p>
+                <!--<a href="#" class="btn">Lire Plus</a>-->
+            </div>
+
+        </div> 
+    </section>
+    
+     <section class="portfolio" id="portfolio">
+        <h2 class="heading">Recent<span> Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/game 2d.png" alt="">
+                <div class="portfolio-layer">   
+                    <h4>Course project</h4>
+                    <p>Application for managing the number 
+                      of books in a library in order to be able to monitor 
+                      the number of books borrowed, their quantity, etc.
+                    </p>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/frontend developer.jpg" alt="">
+                <div class="portfolio-layer">   
+                    <h4>frontend developer</h4>
+                    <p>creating a grade table in html, css for a university</p>
+                        <a href="img/Modèle de bulletin de Notes UNG/modele de bulletin de notes numéro 2.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/frontend developer.jpg" alt="">
+                <div class="portfolio-layer">   
+                    <h4>Website Redesign</h4>
+                    <p>redesign of site web xp-informatique</p>
+                        <a href="img/xp-informatique.com/accueil.html" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+
+    </section> 
+
+    <!-- <section class="contact" id="contact">-->
+    <!--    <h2 class="heading">Contact <span>Me!</span></h2>-->
+
+    <!--    <form action="#">-->
+    <!--        <div class="input-box">-->
+    <!--            <input type="text" name="" id="" placeholder="Full name">-->
+    <!--            <input type="email" name="" id="" placeholder="Email">-->
+    <!--        </div>-->
+    <!--        <div class="input-box">-->
+    <!--            <input type="number" name="" id="" placeholder="mobile Number">-->
+    <!--            <input type="text" name="" id="" placeholder="Email Subject">-->
+    <!--        </div>-->
+    <!--        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>-->
+    <!--        <input type="submit" value="Send Message" class="btn">-->
+    <!--    </form>-->
+    <!--</section> -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by InsomniacGeith | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js%402.0.15/dist/typed.umd.js"></script>
+    <script src="img/script.js"></script>
+
+</body>
+
+</html>
